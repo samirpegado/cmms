@@ -116,26 +116,37 @@ services:
     environment:
       - SERVICE_URL_FRONTEND_3000
       - API_URL=https://api.ativhub.sgapps.org
-      - HOME_URL=${HOME_URL:-https://atlas-cmms.com}
-      - "GOOGLE_KEY=${GOOGLE_KEY:- }"
-      - "GOOGLE_TRACKING_ID=${GOOGLE_TRACKING_ID:- }"
-      - INVITATION_VIA_EMAIL=${INVITATION_VIA_EMAIL:-false}
-      - CLOUD_VERSION=${CLOUD_VERSION:-false}
+      - HOME_URL=https://atlas-cmms.com
+      - GOOGLE_KEY=unused
+      - GOOGLE_TRACKING_ID=unused
+      - INVITATION_VIA_EMAIL=false
+      - CLOUD_VERSION=false
       - NODE_ENV=production
-      - ENABLE_SSO=${ENABLE_SSO:-false}
-      - "OAUTH2_PROVIDER=${OAUTH2_PROVIDER:- }"
-      - "LOGO_PATHS=${LOGO_PATHS:- }"
-      - "CUSTOM_COLORS=${CUSTOM_COLORS:- }"
-      - "BRAND_CONFIG=${BRAND_CONFIG:- }"
-      - "DEMO_LINK=${DEMO_LINK:- }"
-      - "PADDLE_SECRET_TOKEN=${PADDLE_SECRET_TOKEN:- }"
-      - PADDLE_ENVIRONMENT=${PADDLE_ENVIRONMENT:-sandbox}
-      - "RECAPTCHA_SITE_KEY=${RECAPTCHA_SITE_KEY:- }"
-      - LDAP_ENABLED=${LDAP_ENABLED:-false}
-      - "CLARITY_ID=${CLARITY_ID:- }"
-      - "SENTRY_DSN=${SENTRY_DSN:- }"
-      - SENTRY_ENVIRONMENT=${SENTRY_ENVIRONMENT:-production}
-      - "SENTRY_RELEASE=${SENTRY_RELEASE:- }"
+      - ENABLE_SSO=false
+      - OAUTH2_PROVIDER=unused
+      - LOGO_PATHS=unused
+      - CUSTOM_COLORS=unused
+      - BRAND_CONFIG=unused
+      - DEMO_LINK=unused
+      - PADDLE_SECRET_TOKEN=unused
+      - PADDLE_ENVIRONMENT=sandbox
+      - RECAPTCHA_SITE_KEY=unused
+      - LDAP_ENABLED=false
+      - CLARITY_ID=unused
+      - SENTRY_DSN=unused
+      - SENTRY_ENVIRONMENT=production
+      - SENTRY_RELEASE=unused
+    command:
+      - /bin/sh
+      - -c
+      - |
+        [ -z "$$API_URL" ] && export API_URL=https://api.ativhub.sgapps.org
+        [ -z "$$HOME_URL" ] && export HOME_URL=https://atlas-cmms.com
+        for k in GOOGLE_KEY GOOGLE_TRACKING_ID OAUTH2_PROVIDER LOGO_PATHS CUSTOM_COLORS BRAND_CONFIG DEMO_LINK PADDLE_SECRET_TOKEN RECAPTCHA_SITE_KEY CLARITY_ID SENTRY_DSN SENTRY_RELEASE; do
+          eval "v=\$$k"
+          if [ -z "$$v" ] || [ "$$v" = unused ]; then export $$k=" "; fi
+        done
+        runtime-env-cra && exec nginx -g "daemon off;"
     healthcheck:
       test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:3000/"]
       interval: 15s
