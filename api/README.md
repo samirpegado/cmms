@@ -1,4 +1,4 @@
-# Atlas CMMS API
+# AtivHub API
 
 This is the REST backend (Java 17-Spring Boot) of the web
 application.

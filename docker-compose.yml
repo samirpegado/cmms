@@ -108,7 +108,10 @@ services:
       start_period: 90s
 
   frontend:
-    image: intelloop/atlas-cmms-frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: ativhub-frontend
     restart: unless-stopped
     depends_on:
       api:

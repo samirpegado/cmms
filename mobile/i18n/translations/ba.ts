@@ -80,7 +80,7 @@ const locale = {
   'eam.descriptions.0':
     'Frustrirani ste pokušavajući organizovati haotičan nered opreme u kompaniji, pitajući se da li je oprema pravilno održavana, ne znajući koliko košta njeno održavanje i sve druge glavobolje koje dolaze sa upravljanjem imovinom?',
   'eam.descriptions.1':
-    'Atlas CMMS modul za upravljanje imovinom može se koristiti za bilo koji broj od 10 do 1.000.000 sredstava, omogućavajući vam da pratite tačno ono što želite, na način na koji želite, u jednostavnoj i pretraživoj strukturi stabla.',
+    'AtivHub modul za upravljanje imovinom može se koristiti za bilo koji broj od 10 do 1.000.000 sredstava, omogućavajući vam da pratite tačno ono što želite, na način na koji želite, u jednostavnoj i pretraživoj strukturi stabla.',
   'eam.checks.0':
     'Znajte zdravlje svoje imovine u svakom trenutku i koliko vas košta',
   'eam.checks.1': 'Pregledajte kompletne i detaljne dnevnike održavanja.',

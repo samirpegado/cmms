@@ -63,7 +63,7 @@ const constructionData: IndustryLayoutProps = {
     {
       question: "How does Atlas handle engine hour tracking?",
       answer:
-        "Atlas CMMS allows for manual meter reading updates via mobile or automated ingestion via our open REST API, making it easy to trigger maintenance based on actual machine usage.",
+        "AtivHub allows for manual meter reading updates via mobile or automated ingestion via our open REST API, making it easy to trigger maintenance based on actual machine usage.",
     },
     {
       question: "Is it really free for unlimited users?",

@@ -67,19 +67,19 @@ const foodBeverageData: IndustryLayoutProps = {
         "Food and beverage operations require strict hygiene, traceability, and equipment reliability. A CMMS centralizes maintenance planning, inspections, and asset history to ensure safety, compliance, and continuous production.",
     },
     {
-      question: "Can Atlas CMMS support regulatory compliance and audits?",
+      question: "Can AtivHub support regulatory compliance and audits?",
       answer:
-        "Yes. Atlas CMMS stores maintenance records, inspection reports, and corrective actions, helping teams prepare for food safety audits and regulatory requirements.",
+        "Yes. AtivHub stores maintenance records, inspection reports, and corrective actions, helping teams prepare for food safety audits and regulatory requirements.",
     },
     {
-      question: "Is Atlas CMMS suitable for refrigerated and cold-chain equipment?",
+      question: "Is AtivHub suitable for refrigerated and cold-chain equipment?",
       answer:
-        "Absolutely. Atlas CMMS tracks maintenance schedules, failures, and spare parts for refrigeration and temperature-sensitive assets to reduce spoilage risks.",
+        "Absolutely. AtivHub tracks maintenance schedules, failures, and spare parts for refrigeration and temperature-sensitive assets to reduce spoilage risks.",
     },
     {
-      question: "Can Atlas CMMS be deployed on-premise in food factories?",
+      question: "Can AtivHub be deployed on-premise in food factories?",
       answer:
-        "Yes. Atlas CMMS is fully self-hosted and Docker-ready, making it ideal for facilities with strict security, privacy, or network isolation requirements.",
+        "Yes. AtivHub is fully self-hosted and Docker-ready, making it ideal for facilities with strict security, privacy, or network isolation requirements.",
     },
   ],
 

@@ -1800,12 +1800,12 @@ const frJSON = {
   'free_cmms.keywords':
     'gmao gratuite, logiciel de gestion de maintenance, logiciel de bons de travail gratuit, suivi des actifs, maintenance préventive',
   'overview.description':
-    "Atlas CMMS est une GMAO gratuite et open-source pour gérer les bons de travail, la maintenance préventive, les actifs et les installations. Simplifiez vos opérations de maintenance dès aujourd'hui.",
+    "AtivHub est une GMAO gratuite et open-source pour gérer les bons de travail, la maintenance préventive, les actifs et les installations. Simplifiez vos opérations de maintenance dès aujourd'hui.",
   'overview.keywords':
-    "GMAO, système de gestion de maintenance assistée par ordinateur, EAM, gestion des actifs d'entreprise, GMAO open source, logiciel de maintenance gratuit, gestion des bons de travail, maintenance préventive, suivi des actifs, gestion des installations, logiciel de suivi de maintenance, maintenance des équipements, Atlas CMMS",
-  'pricing.title': 'Tarification - Atlas CMMS',
+    "GMAO, système de gestion de maintenance assistée par ordinateur, EAM, gestion des actifs d'entreprise, GMAO open source, logiciel de maintenance gratuit, gestion des bons de travail, maintenance préventive, suivi des actifs, gestion des installations, logiciel de suivi de maintenance, maintenance des équipements, AtivHub",
+  'pricing.title': 'Tarification - AtivHub',
   'pricing.description':
-    'Plans tarifaires flexibles pour Atlas CMMS. Choisissez entre les versions Cloud et Auto-hébergée de notre GMAO open-source pour optimiser vos opérations de maintenance.',
+    'Plans tarifaires flexibles pour AtivHub. Choisissez entre les versions Cloud et Auto-hébergée de notre GMAO open-source pour optimiser vos opérations de maintenance.',
   'free_cmms.hero.subtitle': 'Logiciel de GMAO gratuit',
   'free_cmms.hero.title':
     'Gérez vos bons de travail et actifs - Gratuit pour toujours',

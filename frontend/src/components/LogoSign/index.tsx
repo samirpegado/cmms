@@ -17,9 +17,9 @@ const LogoWrapper = styled('a')(
   ({ theme }) => `
         color: ${theme.palette.text.primary};
         display: flex;
+        flex-direction: column;
         text-decoration: none;
         align-items: center;
-        width: 53px;
         margin: 0 auto;
         font-weight: ${theme.typography.fontWeightBold};
 `
@@ -68,9 +68,23 @@ function Logo({ white }: OwnProps) {
             src={white ? logo.white : logo.dark}
             width={`${width * (mobile ? 0.7 : 1)}px`}
             height={`${height * (mobile ? 0.7 : 1)}px`}
-            alt={'logo'}
+            alt={brandName}
           />
         </LogoSignWrapper>
+        <Box
+          component="span"
+          sx={{
+            mt: 0.5,
+            fontSize: 16,
+            fontWeight: 700,
+            letterSpacing: 0.2,
+            lineHeight: 1.2,
+            color: white ? '#fff' : 'text.primary',
+            textAlign: 'center'
+          }}
+        >
+          {brandName}
+        </Box>
       </LogoWrapper>
     </TooltipWrapper>
   );

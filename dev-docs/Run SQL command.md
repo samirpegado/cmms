@@ -1,4 +1,4 @@
-# Running a SQL Command on the Atlas CMMS Database
+# Running a SQL Command on the AtivHub Database
 
 This guide explains how to run a SQL command on the PostgreSQL database container used in the `atlas-cmms` Docker Compose setup.
 

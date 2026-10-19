@@ -1,6 +1,6 @@
-# Atlas CMMS Backup and Restore Utility
+# AtivHub Backup and Restore Utility
 # PowerShell version for Windows with Docker Desktop
-# This script allows users to backup and restore the Atlas CMMS system
+# This script allows users to backup and restore the AtivHub system
 
 # Parameters
 param (
@@ -64,8 +64,8 @@ function Show-Usage {
     Write-Host "Usage: .\atlas-backup.ps1 [backup|restore] [options]"
     Write-Host ""
     Write-Host "Commands:"
-    Write-Host "  backup                Create a backup of Atlas CMMS"
-    Write-Host "  restore <filename>    Restore Atlas CMMS from a backup file"
+    Write-Host "  backup                Create a backup of AtivHub"
+    Write-Host "  restore <filename>    Restore AtivHub from a backup file"
     Write-Host ""
     Write-Host "Options:"
     Write-Host "  -SkipDb               Skip database backup/restore"
@@ -106,7 +106,7 @@ function Backup-AtlasCMMS {
     $BACKUP_FILENAME = "atlas_backup_${TIMESTAMP}.zip"
     $TEMP_DIR = Join-Path $env:TEMP "atlas_backup_$TIMESTAMP"
 
-    Write-Host "Starting Atlas CMMS backup..."
+    Write-Host "Starting AtivHub backup..."
 
     # Check if Docker is running
     if (-not (Test-DockerRunning)) {
@@ -124,7 +124,7 @@ function Backup-AtlasCMMS {
 
         if (-not (Test-ContainerRunning -ContainerName "atlas_db")) {
             Write-Host "Error: Atlas database container (atlas_db) is not running." -ForegroundColor Red
-            Write-Host "Make sure your Atlas CMMS environment is up and running."
+            Write-Host "Make sure your AtivHub environment is up and running."
             Remove-Item -Path $TEMP_DIR -Recurse -Force -ErrorAction SilentlyContinue
             exit 1
         }
@@ -148,7 +148,7 @@ function Backup-AtlasCMMS {
 
         if (-not (Test-ContainerRunning -ContainerName "atlas_minio")) {
             Write-Host "Error: MinIO container (atlas_minio) is not running." -ForegroundColor Red
-            Write-Host "Make sure your Atlas CMMS environment is up and running."
+            Write-Host "Make sure your AtivHub environment is up and running."
             Remove-Item -Path $TEMP_DIR -Recurse -Force -ErrorAction SilentlyContinue
             exit 1
         }
@@ -222,7 +222,7 @@ function Restore-AtlasCMMS {
     # Create temp directory for extraction
     $TEMP_DIR = Join-Path $env:TEMP "atlas_restore_$TIMESTAMP"
 
-    Write-Host "Starting Atlas CMMS restore..."
+    Write-Host "Starting AtivHub restore..."
 
     # Check if Docker is running
     if (-not (Test-DockerRunning)) {
@@ -239,7 +239,7 @@ function Restore-AtlasCMMS {
 
         if (-not (Test-ContainerRunning -ContainerName "atlas_db")) {
             Write-Host "Error: Atlas database container (atlas_db) is not running." -ForegroundColor Red
-            Write-Host "Make sure your Atlas CMMS environment is up and running."
+            Write-Host "Make sure your AtivHub environment is up and running."
             Remove-Item -Path $TEMP_DIR -Recurse -Force -ErrorAction SilentlyContinue
             exit 1
         }
@@ -278,7 +278,7 @@ function Restore-AtlasCMMS {
 
         if (-not (Test-ContainerRunning -ContainerName "atlas_minio")) {
             Write-Host "Error: MinIO container (atlas_minio) is not running." -ForegroundColor Red
-            Write-Host "Make sure your Atlas CMMS environment is up and running."
+            Write-Host "Make sure your AtivHub environment is up and running."
             Remove-Item -Path $TEMP_DIR -Recurse -Force -ErrorAction SilentlyContinue
             exit 1
         }

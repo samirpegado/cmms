@@ -62,7 +62,7 @@ const atlasHospitalityData: IndustryLayoutProps = {
     {
       question: "Why choose open-source for hospitality?",
       answer:
-        "Privacy and cost. Most hotels are locked into expensive per-user contracts. Atlas CMMS gives you the freedom to scale across hundreds of rooms without scaling your software bill.",
+        "Privacy and cost. Most hotels are locked into expensive per-user contracts. AtivHub gives you the freedom to scale across hundreds of rooms without scaling your software bill.",
     },
     {
       question: "Where is our data stored?",

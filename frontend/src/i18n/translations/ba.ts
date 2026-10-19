@@ -1695,12 +1695,12 @@ const locale = {
   'free_cmms.keywords':
     'besplatni cmms, softver za upravljanje održavanjem, besplatni softver za radne naloge, praćenje imovine, preventivno održavanje',
   'overview.description':
-    'Atlas CMMS je besplatni CMMS otvorenog koda za upravljanje radnim nalozima, preventivnim održavanjem, imovinom i objektima. Pojednostavite operacije održavanja već danas.',
+    'AtivHub je besplatni CMMS otvorenog koda za upravljanje radnim nalozima, preventivnim održavanjem, imovinom i objektima. Pojednostavite operacije održavanja već danas.',
   'overview.keywords':
-    'CMMS, kompjuterizovani sistem upravljanja održavanjem, EAM, upravljanje korporativnom imovinom, cmms otvorenog koda, besplatni softver za održavanje, upravljanje radnim nalozima, preventivno održavanje, praćenje imovine, upravljanje objektima, softver za praćenje održavanja, održavanje opreme, Atlas CMMS',
-  'pricing.title': 'Cijene - Atlas CMMS',
+    'CMMS, kompjuterizovani sistem upravljanja održavanjem, EAM, upravljanje korporativnom imovinom, cmms otvorenog koda, besplatni softver za održavanje, upravljanje radnim nalozima, preventivno održavanje, praćenje imovine, upravljanje objektima, softver za praćenje održavanja, održavanje opreme, AtivHub',
+  'pricing.title': 'Cijene - AtivHub',
   'pricing.description':
-    'Fleksibilni planovi cijena za Atlas CMMS. Birajte između Cloud i Self-Hosted verzija našeg CMMS-a otvorenog koda za optimizaciju vaših operacija održavanja.',
+    'Fleksibilni planovi cijena za AtivHub. Birajte između Cloud i Self-Hosted verzija našeg CMMS-a otvorenog koda za optimizaciju vaših operacija održavanja.',
   'free_cmms.hero.subtitle': 'Besplatni CMMS Softver',
   'free_cmms.hero.title':
     'Upravljajte radnim nalozima i imovinom - Zauvijek besplatno',

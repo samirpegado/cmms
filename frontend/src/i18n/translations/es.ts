@@ -1729,12 +1729,12 @@ const esJSON = {
   'free_cmms.keywords':
     'gmao gratis, software de gestión de mantenimiento, software de órdenes de trabajo gratis, seguimiento de activos, mantenimiento preventivo',
   'overview.description':
-    'Atlas CMMS es un GMAO gratuito y de código abierto para gestionar órdenes de trabajo, mantenimiento preventivo, activos e instalaciones. Optimice sus operaciones de mantenimiento hoy.',
+    'AtivHub es un GMAO gratuito y de código abierto para gestionar órdenes de trabajo, mantenimiento preventivo, activos e instalaciones. Optimice sus operaciones de mantenimiento hoy.',
   'overview.keywords':
-    'GMAO, sistema de gestión de mantenimiento computarizado, EAM, gestión de activos empresariales, gmao de código abierto, software de mantenimiento gratis, gestión de órdenes de trabajo, mantenimiento preventivo, seguimiento de activos, gestión de instalaciones, software de seguimiento de mantenimiento, mantenimiento de equipos, Atlas CMMS',
-  'pricing.title': 'Precios - Atlas CMMS',
+    'GMAO, sistema de gestión de mantenimiento computarizado, EAM, gestión de activos empresariales, gmao de código abierto, software de mantenimiento gratis, gestión de órdenes de trabajo, mantenimiento preventivo, seguimiento de activos, gestión de instalaciones, software de seguimiento de mantenimiento, mantenimiento de equipos, AtivHub',
+  'pricing.title': 'Precios - AtivHub',
   'pricing.description':
-    'Planes de precios flexibles para Atlas CMMS. Elija entre las versiones en la nube y autoalojadas de nuestro GMAO de código abierto para optimizar sus operaciones de mantenimiento.',
+    'Planes de precios flexibles para AtivHub. Elija entre las versiones en la nube y autoalojadas de nuestro GMAO de código abierto para optimizar sus operaciones de mantenimiento.',
   'free_cmms.hero.subtitle': 'Software GMAO Gratuito',
   'free_cmms.hero.title':
     'Gestione Órdenes de Trabajo y Activos - Gratis para siempre',

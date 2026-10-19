@@ -1,4 +1,4 @@
-# Atlas CMMS Mobile App
+# AtivHub Mobile App
 
 This project aims to help manage assets, schedule maintenance and track work orders. This is the mobile app developed
 with React Native.

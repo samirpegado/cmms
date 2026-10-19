@@ -62,19 +62,19 @@ const manufacturingData: IndustryLayoutProps = {
 
   faqs: [
     {
-      question: "Is Atlas CMMS suitable for manufacturing environments?",
+      question: "Is AtivHub suitable for manufacturing environments?",
       answer:
-        "Yes. Atlas CMMS is designed to manage machines, production lines, spare parts, preventive maintenance, and multi-site factory operations.",
+        "Yes. AtivHub is designed to manage machines, production lines, spare parts, preventive maintenance, and multi-site factory operations.",
     },
     {
-      question: "Can Atlas CMMS help reduce equipment downtime?",
+      question: "Can AtivHub help reduce equipment downtime?",
       answer:
         "Absolutely. Preventive scheduling, work order tracking, and asset history insights help teams detect issues early and avoid unexpected failures.",
     },
     {
-      question: "Does Atlas CMMS support on-premise deployment for factories?",
+      question: "Does AtivHub support on-premise deployment for factories?",
       answer:
-        "Yes. Atlas CMMS can be fully self-hosted using Docker, making it ideal for factories with strict security or network requirements.",
+        "Yes. AtivHub can be fully self-hosted using Docker, making it ideal for factories with strict security or network requirements.",
     },
   ],
 

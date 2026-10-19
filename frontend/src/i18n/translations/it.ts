@@ -1713,12 +1713,12 @@ const locale = {
   'free_cmms.keywords':
     'cmms gratuito, software gestione manutenzione, software ordini di lavoro gratuito, tracciamento risorse, manutenzione preventiva',
   'overview.description':
-    'Atlas CMMS è un CMMS gratuito e open source per gestire ordini di lavoro, manutenzione preventiva, risorse e strutture. Semplifica le tue operazioni di manutenzione oggi stesso.',
+    'AtivHub è un CMMS gratuito e open source per gestire ordini di lavoro, manutenzione preventiva, risorse e strutture. Semplifica le tue operazioni di manutenzione oggi stesso.',
   'overview.keywords':
-    'CMMS, sistema di gestione della manutenzione computerizzato, EAM, gestione delle risorse aziendali, cmms open source, software di manutenzione gratuito, gestione degli ordini di lavoro, manutenzione preventiva, tracciamento delle risorse, gestione delle strutture, software di tracciamento della manutenzione, manutenzione delle apparecchiature, Atlas CMMS',
-  'pricing.title': 'Prezzi - Atlas CMMS',
+    'CMMS, sistema di gestione della manutenzione computerizzato, EAM, gestione delle risorse aziendali, cmms open source, software di manutenzione gratuito, gestione degli ordini di lavoro, manutenzione preventiva, tracciamento delle risorse, gestione delle strutture, software di tracciamento della manutenzione, manutenzione delle apparecchiature, AtivHub',
+  'pricing.title': 'Prezzi - AtivHub',
   'pricing.description':
-    'Piani tariffari flessibili per Atlas CMMS. Scegli tra le versioni Cloud e Self-Hosted del nostro CMMS open source per ottimizzare le tue operazioni di manutenzione.',
+    'Piani tariffari flessibili per AtivHub. Scegli tra le versioni Cloud e Self-Hosted del nostro CMMS open source per ottimizzare le tue operazioni di manutenzione.',
   'free_cmms.hero.subtitle': 'Software CMMS Gratuito',
   'free_cmms.hero.title': 'Gestisci Ordini di Lavoro e Risorse - Gratis per sempre',
   'free_cmms.hero.description':

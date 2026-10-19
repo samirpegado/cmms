@@ -1680,12 +1680,12 @@ const locale = {
   'free_cmms.keywords':
     'gratis cmms, programvara för underhållshantering, gratis arbetsorderprogramvara, tillgångsspårning, förebyggande underhåll',
   'overview.description':
-    'Atlas CMMS är ett gratis, open-source CMMS för att hantera arbetsordrar, förebyggande underhåll, tillgångar och anläggningar. Effektivisera din underhållsverksamhet idag.',
+    'AtivHub är ett gratis, open-source CMMS för att hantera arbetsordrar, förebyggande underhåll, tillgångar och anläggningar. Effektivisera din underhållsverksamhet idag.',
   'overview.keywords':
-    'CMMS, datoriserat underhållssystem, EAM, enterprise asset management, open source cmms, gratis underhållsprogramvara, arbetsorderhantering, förebyggande underhåll, tillgångsspårning, fastighetsförvaltning, programvara för underhållsspårning, utrustningsunderhåll, Atlas CMMS',
-  'pricing.title': 'Prissättning - Atlas CMMS',
+    'CMMS, datoriserat underhållssystem, EAM, enterprise asset management, open source cmms, gratis underhållsprogramvara, arbetsorderhantering, förebyggande underhåll, tillgångsspårning, fastighetsförvaltning, programvara för underhållsspårning, utrustningsunderhåll, AtivHub',
+  'pricing.title': 'Prissättning - AtivHub',
   'pricing.description':
-    'Flexibla prisplaner för Atlas CMMS. Välj mellan Cloud- och Self-Hosted-versioner av vårt open-source CMMS för att optimera din underhållsverksamhet.',
+    'Flexibla prisplaner för AtivHub. Välj mellan Cloud- och Self-Hosted-versioner av vårt open-source CMMS för att optimera din underhållsverksamhet.',
   'free_cmms.hero.subtitle': 'Gratis CMMS-programvara',
   'free_cmms.hero.title': 'Hantera Arbetsordrar och Tillgångar - Gratis för alltid',
   'free_cmms.hero.description':

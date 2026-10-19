@@ -1736,12 +1736,12 @@ const deJSON = {
   'free_cmms.keywords':
     'kostenloses cmms, wartungsmanagement-software, kostenlose arbeitsauftrag-software, anlagenverfolgung, vorbeugende wartung',
   'overview.description':
-    'Atlas CMMS ist ein kostenloses Open-Source-CMMS zur Verwaltung von Arbeitsaufträgen, vorbeugender Wartung, Anlagen und Einrichtungen. Optimieren Sie noch heute Ihre Wartungsarbeiten.',
+    'AtivHub ist ein kostenloses Open-Source-CMMS zur Verwaltung von Arbeitsaufträgen, vorbeugender Wartung, Anlagen und Einrichtungen. Optimieren Sie noch heute Ihre Wartungsarbeiten.',
   'overview.keywords':
-    'CMMS, computergestütztes wartungsmanagementsystem, EAM, enterprise asset management, open-source-cmms, kostenlose wartungssoftware, arbeitsauftragsverwaltung, vorbeugende wartung, anlagenverfolgung, facility management, wartungsverfolgungssoftware, gerätewartung, Atlas CMMS',
-  'pricing.title': 'Preise - Atlas CMMS',
+    'CMMS, computergestütztes wartungsmanagementsystem, EAM, enterprise asset management, open-source-cmms, kostenlose wartungssoftware, arbeitsauftragsverwaltung, vorbeugende wartung, anlagenverfolgung, facility management, wartungsverfolgungssoftware, gerätewartung, AtivHub',
+  'pricing.title': 'Preise - AtivHub',
   'pricing.description':
-    'Flexible Preispläne für Atlas CMMS. Wählen Sie zwischen Cloud- und selbstgehosteten Versionen unseres Open-Source-CMMS, um Ihre Wartungsarbeiten zu optimieren.',
+    'Flexible Preispläne für AtivHub. Wählen Sie zwischen Cloud- und selbstgehosteten Versionen unseres Open-Source-CMMS, um Ihre Wartungsarbeiten zu optimieren.',
   'free_cmms.hero.subtitle': 'Kostenlose CMMS-Software',
   'free_cmms.hero.title': 'Verwalten Sie Arbeitsaufträge und Anlagen - Für immer kostenlos',
   'free_cmms.hero.description':

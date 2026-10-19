@@ -6,7 +6,7 @@ const googleServicesJson = process.env.GOOGLE_SERVICES_JSON;
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  name: 'Atlas CMMS',
+  name: 'AtivHub',
   slug: 'atlas-cmms',
   version: '1.0.38',
   orientation: 'portrait',

@@ -1711,12 +1711,12 @@ const trJSON = {
   'free_cmms.keywords':
     'ücretsiz cmms, bakım yönetim yazılımı, ücretsiz iş emri yazılımı, varlık takibi, önleyici bakım',
   'overview.description':
-    'Atlas CMMS, iş emirlerini, önleyici bakımı, varlıkları ve tesisleri yönetmek için ücretsiz, açık kaynaklı bir CMMS\'dir. Bakım operasyonlarınızı bugün kolaylaştırın.',
+    'AtivHub, iş emirlerini, önleyici bakımı, varlıkları ve tesisleri yönetmek için ücretsiz, açık kaynaklı bir CMMS\'dir. Bakım operasyonlarınızı bugün kolaylaştırın.',
   'overview.keywords':
-    'CMMS, bilgisayarlı bakım yönetim sistemi, EAM, kurumsal varlık yönetimi, açık kaynaklı CMMS, ücretsiz bakım yazılımı, iş emri yönetimi, önleyici bakım, varlık takibi, tesis yönetimi, bakım takip yazılımı, ekipman bakımı, Atlas CMMS',
-  'pricing.title': 'Fiyatlandırma - Atlas CMMS',
+    'CMMS, bilgisayarlı bakım yönetim sistemi, EAM, kurumsal varlık yönetimi, açık kaynaklı CMMS, ücretsiz bakım yazılımı, iş emri yönetimi, önleyici bakım, varlık takibi, tesis yönetimi, bakım takip yazılımı, ekipman bakımı, AtivHub',
+  'pricing.title': 'Fiyatlandırma - AtivHub',
   'pricing.description':
-    'Atlas CMMS için esnek fiyatlandırma planları. Bakım operasyonlarınızı optimize etmek için açık kaynaklı CMMS\'mizin Bulut ve Kendi Sunucunuzda Barındırılan sürümleri arasından seçim yapın.',
+    'AtivHub için esnek fiyatlandırma planları. Bakım operasyonlarınızı optimize etmek için açık kaynaklı CMMS\'mizin Bulut ve Kendi Sunucunuzda Barındırılan sürümleri arasından seçim yapın.',
   'free_cmms.hero.subtitle': 'Ücretsiz CMMS Yazılımı',
   'free_cmms.hero.title': 'İş Emirlerini ve Varlıkları Yönetin - Sonsuza Kadar Ücretsiz',
   'free_cmms.hero.description':

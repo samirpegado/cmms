@@ -80,7 +80,7 @@ const locale = {
   'eam.descriptions.0':
     'Gefrustreerd door het proberen te organiseren van de chaotische rommel van de apparatuur van het bedrijf, je afvragend of de apparatuur goed is onderhouden, niet wetend wat de onderhoudskosten zijn en alle andere hoofdpijn die komt kijken bij assetbeheer?',
   'eam.descriptions.1':
-    'De Enterprise Asset Management-module van Atlas CMMS kan worden gebruikt voor tussen de 10 en 1.000.000 Assets, waardoor u precies kunt bijhouden wat u wilt, op de manier die u wilt, in een gebruiksvriendelijke en doorzoekbare boomstructuur.',
+    'De Enterprise Asset Management-module van AtivHub kan worden gebruikt voor tussen de 10 en 1.000.000 Assets, waardoor u precies kunt bijhouden wat u wilt, op de manier die u wilt, in een gebruiksvriendelijke en doorzoekbare boomstructuur.',
   'eam.checks.0':
     'Ken de status van uw assets op elk moment en wat ze u kosten',
   'eam.checks.1': 'Bekijk volledige en gedetailleerde onderhoudslogboeken.',
@@ -1705,12 +1705,12 @@ const locale = {
   'free_cmms.keywords':
     'gratis cmms, onderhoudsbeheersoftware, gratis werkordersoftware, activa volgen, preventief onderhoud',
   'overview.description':
-    'Atlas CMMS is een gratis, open-source CMMS om werkorders, preventief onderhoud, activa en faciliteiten te beheren. Stroomlijn uw onderhoudsactiviteiten vandaag nog.',
+    'AtivHub is een gratis, open-source CMMS om werkorders, preventief onderhoud, activa en faciliteiten te beheren. Stroomlijn uw onderhoudsactiviteiten vandaag nog.',
   'overview.keywords':
-    'CMMS, geautomatiseerd onderhoudsbeheersysteem, EAM, enterprise asset management, open source cmms, gratis onderhoudssoftware, werkorderbeheer, preventief onderhoud, activa volgen, facilitair beheer, software voor onderhoudstracking, apparatuuronderhoud, Atlas CMMS',
-  'pricing.title': 'Prijzen - Atlas CMMS',
+    'CMMS, geautomatiseerd onderhoudsbeheersysteem, EAM, enterprise asset management, open source cmms, gratis onderhoudssoftware, werkorderbeheer, preventief onderhoud, activa volgen, facilitair beheer, software voor onderhoudstracking, apparatuuronderhoud, AtivHub',
+  'pricing.title': 'Prijzen - AtivHub',
   'pricing.description':
-    'Flexibele prijsplannen voor Atlas CMMS. Kies tussen Cloud- en Self-Hosted versies van ons open-source CMMS om uw onderhoudsactiviteiten te optimaliseren.',
+    'Flexibele prijsplannen voor AtivHub. Kies tussen Cloud- en Self-Hosted versies van ons open-source CMMS om uw onderhoudsactiviteiten te optimaliseren.',
   'free_cmms.hero.subtitle': 'Gratis CMMS Software',
   'free_cmms.hero.title': 'Beheer Werkorders en Activa - Voor Altijd Gratis',
   'free_cmms.hero.description':

@@ -1,12 +1,12 @@
-# Atlas CMMS Commercial License Agreement
+# AtivHub Commercial License Agreement
 
 Effective Date: January 8, 2026
 
-This Atlas CMMS Commercial License Agreement (the "Agreement") is a legally binding contract between INTELLOOP LLC ("Licensor") and the individual or entity ("Licensee") who has purchased a license to use the Atlas CMMS software.
+This AtivHub Commercial License Agreement (the "Agreement") is a legally binding contract between INTELLOOP LLC ("Licensor") and the individual or entity ("Licensee") who has purchased a license to use the AtivHub software.
 
-This Agreement governs your use of the Atlas CMMS software (the "Software"), for self-hosted deployments on Licensee's own infrastructure. By installing, copying, or otherwise using the Software, you agree to be bound by the terms of this Agreement. If you do not agree to the terms of this Agreement, do not install or use the Software.
+This Agreement governs your use of the AtivHub software (the "Software"), for self-hosted deployments on Licensee's own infrastructure. By installing, copying, or otherwise using the Software, you agree to be bound by the terms of this Agreement. If you do not agree to the terms of this Agreement, do not install or use the Software.
 
-Cloud Subscription Notice: Use of Atlas CMMS via Licensor's cloud-hosted service (atlas-cmms.com) is governed by separate Terms of Service, not this Agreement.
+Cloud Subscription Notice: Use of AtivHub via Licensor's cloud-hosted service (atlas-cmms.com) is governed by separate Terms of Service, not this Agreement.
 
 Background: Dual Licensing
 
@@ -17,7 +17,7 @@ The Software is offered under a dual-license model. You MUST choose ONE of the f
 
 1\. Definitions
 
-- "Software" refers to Atlas CMMS, including all source code, object code, documentation, and related materials provided by Licensor.
+- "Software" refers to AtivHub, including all source code, object code, documentation, and related materials provided by Licensor.
 - "Licensee" refers to the individual or legal entity that has purchased a license under this Agreement.
 - "Authorized User" means an employee, contractor, or agent of the Licensee who is authorized to access and use the Software on behalf of the Licensee.
 - "Order Form" means the ordering document or online order process for the purchase of the license, which specifies the license type, term, number of Authorized Users, and fees.
@@ -44,7 +44,7 @@ Under this Commercial License, Licensee shall not:
 - 3.2. Public Repositories: Publicly distribute or publish the Software or modifications in a manner that would make it available under open-source terms.
 - 3.3. Remove Notices: Remove or alter any copyright, trademark, or other proprietary notices in the Software.
 - 3.4. Circumvent Licensing: Circumvent, reverse-engineer, or attempt to circumvent any license key or other copy-protection mechanism in the Software.
-- 3.5. Competitive Use: Use the Software to develop, market, or distribute a product or service that competes directly with Atlas CMMS or other products offered by Licensor.
+- 3.5. Competitive Use: Use the Software to develop, market, or distribute a product or service that competes directly with AtivHub or other products offered by Licensor.
 - 3.6. SaaS Use Rights: Commercial Licensees MAY use the Software to provide internal services to their own customers (e.g., a facilities management company using Atlas to manage client properties), provided that:
     - (a) The Software is not the primary product being sold or marketed;
     - (b) Access is limited to Licensee's direct customers under service contracts;

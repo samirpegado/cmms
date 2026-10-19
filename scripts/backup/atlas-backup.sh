@@ -1,7 +1,7 @@
 #!/bin/bash
-# Atlas CMMS Backup and Restore Utility
+# AtivHub Backup and Restore Utility
 # Linux version for Docker environments
-# This script allows users to backup and restore the Atlas CMMS system
+# This script allows users to backup and restore the AtivHub system
 
 # Default variables - Will be overridden by .env file if it exists
 POSTGRES_USER="rootUser"
@@ -18,8 +18,8 @@ show_usage() {
     echo "Usage: ./atlas-backup.sh [backup|restore] [options]"
     echo ""
     echo "Commands:"
-    echo "  backup                Create a backup of Atlas CMMS"
-    echo "  restore <filename>    Restore Atlas CMMS from a backup file"
+    echo "  backup                Create a backup of AtivHub"
+    echo "  restore <filename>    Restore AtivHub from a backup file"
     echo ""
     echo "Options:"
     echo "  --skip-db             Skip database backup/restore"
@@ -81,7 +81,7 @@ backup_atlas_cmms() {
     BACKUP_FILENAME="atlas_backup_${TIMESTAMP}.tar.gz"
     TEMP_DIR="/tmp/atlas_backup_$TIMESTAMP"
 
-    echo "Starting Atlas CMMS backup..."
+    echo "Starting AtivHub backup..."
 
     # Check if Docker is running
     if ! check_docker_running; then
@@ -97,7 +97,7 @@ backup_atlas_cmms() {
 
         if ! check_container_running "atlas_db"; then
             echo "Error: Atlas database container (atlas_db) is not running."
-            echo "Make sure your Atlas CMMS environment is up and running."
+            echo "Make sure your AtivHub environment is up and running."
             rm -rf "$TEMP_DIR"
             exit 1
         fi
@@ -119,7 +119,7 @@ backup_atlas_cmms() {
 
         if ! check_container_running "atlas_minio"; then
             echo "Error: MinIO container (atlas_minio) is not running."
-            echo "Make sure your Atlas CMMS environment is up and running."
+            echo "Make sure your AtivHub environment is up and running."
             rm -rf "$TEMP_DIR"
             exit 1
         fi
@@ -187,7 +187,7 @@ restore_atlas_cmms() {
     # Create temp directory for extraction
     TEMP_DIR="/tmp/atlas_restore_$TIMESTAMP"
 
-    echo "Starting Atlas CMMS restore..."
+    echo "Starting AtivHub restore..."
 
     # Check if Docker is running
     if ! check_docker_running; then
@@ -205,7 +205,7 @@ restore_atlas_cmms() {
 
         if ! check_container_running "atlas_db"; then
             echo "Error: Atlas database container (atlas_db) is not running."
-            echo "Make sure your Atlas CMMS environment is up and running."
+            echo "Make sure your AtivHub environment is up and running."
             rm -rf "$TEMP_DIR"
             exit 1
         fi
@@ -242,7 +242,7 @@ restore_atlas_cmms() {
 
         if ! check_container_running "atlas_minio"; then
             echo "Error: MinIO container (atlas_minio) is not running."
-            echo "Make sure your Atlas CMMS environment is up and running."
+            echo "Make sure your AtivHub environment is up and running."
             rm -rf "$TEMP_DIR"
             exit 1
         fi
