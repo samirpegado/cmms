@@ -1,9 +1,7 @@
-# Coolify (build pack Docker Compose). Do not enable Raw Compose.
-# Redeploy trigger.
-# Coolify must inject the proxy labels from SERVICE_URL_*.
-# Frontend domain in Coolify: https://ativhub.sgapps.org:3000
-# (the :3000 is the container port). API and MinIO keep generated domains.
-# Postgres, MinIO and the JWT secret are generated (SERVICE_USER_*, SERVICE_PASSWORD_*, SERVICE_REALBASE64_*).
+# Coolify resource for the API, Postgres and MinIO only.
+# The web UI is a second resource: docker-compose.frontend.yml.
+# Do not enable Raw Compose. Coolify injects proxy labels from SERVICE_URL_*.
+# Domains: api → :8080, minio → :9000. Postgres and the MinIO console stay internal.
 
 name: atlas-cmms
 services:
@@ -107,45 +105,6 @@ services:
       timeout: 5s
       retries: 12
       start_period: 90s
-
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    image: ativhub-frontend
-    restart: unless-stopped
-    depends_on:
-      api:
-        condition: service_healthy
-    environment:
-      - SERVICE_URL_FRONTEND_3000
-      - API_URL=https://api.ativhub.sgapps.org
-      - HOME_URL=https://atlas-cmms.com
-      - "GOOGLE_KEY= "
-      - "GOOGLE_TRACKING_ID= "
-      - INVITATION_VIA_EMAIL=false
-      - CLOUD_VERSION=false
-      - NODE_ENV=production
-      - ENABLE_SSO=false
-      - "OAUTH2_PROVIDER= "
-      - LOGO_PATHS=null
-      - CUSTOM_COLORS=null
-      - BRAND_CONFIG=null
-      - "DEMO_LINK= "
-      - "PADDLE_SECRET_TOKEN= "
-      - PADDLE_ENVIRONMENT=sandbox
-      - "RECAPTCHA_SITE_KEY= "
-      - LDAP_ENABLED=false
-      - "CLARITY_ID= "
-      - "SENTRY_DSN= "
-      - SENTRY_ENVIRONMENT=production
-      - "SENTRY_RELEASE= "
-    healthcheck:
-      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:3000/"]
-      interval: 15s
-      timeout: 5s
-      retries: 8
-      start_period: 20s
 
 volumes:
   postgres_data:

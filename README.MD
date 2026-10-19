@@ -70,16 +70,25 @@ We'd love to have **new contributors**, so feel free to join us!
 
 ## Self-Host / Run locally
 ### ⚡ Quick Start (2 minutes)
-Deploy with [Coolify](https://coolify.io/docs/applications/builds/docker-compose) using this `docker-compose.yml`. Coolify generates the public URLs, database password, MinIO password and JWT secret. Leave Compose deployment on the normal mode (not Raw).
+Deploy with [Coolify](https://coolify.io/docs/applications/builds/docker-compose) as two resources, so a UI change does not rebuild or restart the API, Postgres and MinIO. Leave Compose deployment on the normal mode (not Raw). Coolify generates the database password, MinIO password and JWT secret.
 
-1. New resource → Git repository → Build pack **Docker Compose**. Base directory `/`, Compose file `docker-compose.yml`.
-2. After Coolify parses the file, set the domains. The port is the port inside the container:
-   - `frontend` → `https://ativhub.sgapps.org:3000`
-   - `api` → `https://<api-domain>:8080`
-   - `minio` → `https://<files-domain>:9000`
-3. Point the DNS record for `ativhub.sgapps.org` at the server, then deploy. Open https://ativhub.sgapps.org.
+1. API resource. New resource → Git repository → Build pack **Docker Compose**. Base directory `/`, Compose file `/docker-compose.yml`. Domains: `api` → `https://api.ativhub.sgapps.org:8080`, `minio` → `https://files.ativhub.sgapps.org:9000`. Advanced → Watch Paths:
 
-Postgres and the MinIO console stay on the internal Docker network. 
+```
+docker-compose.yml
+api/**
+```
+
+2. Frontend resource. Another Docker Compose resource, same repository. Compose file `/docker-compose.frontend.yml`. Domain: `frontend` → `https://ativhub.sgapps.org:3000`. Advanced → Watch Paths:
+
+```
+docker-compose.frontend.yml
+frontend/**
+```
+
+3. Point the DNS records at the server, then deploy the API resource first and the frontend resource second. Open https://ativhub.sgapps.org.
+
+A commit that only touches `frontend/` redeploys the UI. The API resource stays up. Postgres and the MinIO console stay on the internal Docker network. 
 
 Need customization or production setup? Continue reading below ↓
 ### Set environment variables
