@@ -1,4 +1,5 @@
-# Coolify (build pack Docker Compose). Do not enable Raw Compose:
+# Coolify (build pack Docker Compose). Do not enable Raw Compose.
+# Redeploy trigger.
 # Coolify must inject the proxy labels from SERVICE_URL_*.
 # Frontend domain in Coolify: https://ativhub.sgapps.org:3000
 # (the :3000 is the container port). API and MinIO keep generated domains.
