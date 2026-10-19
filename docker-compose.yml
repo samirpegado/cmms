@@ -32,7 +32,7 @@ services:
       - SERVICE_URL_MINIO_9000
       - MINIO_ROOT_USER=${SERVICE_USER_MINIO}
       - MINIO_ROOT_PASSWORD=${SERVICE_PASSWORD_64_MINIO}
-      - MINIO_SERVER_URL=${SERVICE_URL_MINIO_9000}
+      - MINIO_SERVER_URL=https://files.ativhub.sgapps.org
     volumes:
       - minio_data:/data
     command: server --address ":9000" --console-address ":9001" /data
@@ -59,7 +59,7 @@ services:
       - DB_URL=postgres/atlas
       - DB_USER=${SERVICE_USER_POSTGRES}
       - DB_PWD=${SERVICE_PASSWORD_64_POSTGRES}
-      - PUBLIC_API_URL=${SERVICE_URL_API_8080}
+      - PUBLIC_API_URL=https://api.ativhub.sgapps.org
       - PUBLIC_FRONT_URL=https://ativhub.sgapps.org
       - GCP_BUCKET_NAME=${GCP_BUCKET_NAME:-}
       - GCP_JSON=${GCP_JSON:-}
@@ -76,7 +76,7 @@ services:
       - MINIO_ACCESS_KEY=${SERVICE_USER_MINIO}
       - MINIO_SECRET_KEY=${SERVICE_PASSWORD_64_MINIO}
       - STORAGE_TYPE=${STORAGE_TYPE:-minio}
-      - PUBLIC_MINIO_ENDPOINT=${SERVICE_URL_MINIO_9000}
+      - PUBLIC_MINIO_ENDPOINT=https://files.ativhub.sgapps.org
       - INVITATION_VIA_EMAIL=${INVITATION_VIA_EMAIL:-false}
       - ENABLE_EMAIL_NOTIFICATIONS=${ENABLE_EMAIL_NOTIFICATIONS:-false}
       - ENABLE_SSO=${ENABLE_SSO:-false}
@@ -115,7 +115,7 @@ services:
         condition: service_healthy
     environment:
       - SERVICE_URL_FRONTEND_3000
-      - API_URL=${SERVICE_URL_API_8080}
+      - API_URL=https://api.ativhub.sgapps.org
       - HOME_URL=${HOME_URL:-https://atlas-cmms.com}
       - "GOOGLE_KEY=${GOOGLE_KEY:- }"
       - "GOOGLE_TRACKING_ID=${GOOGLE_TRACKING_ID:- }"
