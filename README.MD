@@ -70,14 +70,16 @@ We'd love to have **new contributors**, so feel free to join us!
 
 ## Self-Host / Run locally
 ### ⚡ Quick Start (2 minutes)
-1. Download:
-  - [docker-compose.yml](./docker-compose.yml)
-  - [.env.example](.env.example) → rename to `.env` 
-2. Run:
-   ```bash
-   docker-compose up -d
-   ```
-Go to http://localhost:3000 to access Atlas CMMS. 
+Deploy with [Coolify](https://coolify.io/docs/applications/builds/docker-compose) using this `docker-compose.yml`. Coolify generates the public URLs, database password, MinIO password and JWT secret. Leave Compose deployment on the normal mode (not Raw).
+
+1. New resource → Git repository → Build pack **Docker Compose**. Base directory `/`, Compose file `docker-compose.yml`.
+2. After Coolify parses the file, set the domains. The port is the port inside the container:
+   - `frontend` → `https://ativhub.sgapps.org:3000`
+   - `api` → `https://<api-domain>:8080`
+   - `minio` → `https://<files-domain>:9000`
+3. Point the DNS record for `ativhub.sgapps.org` at the server, then deploy. Open https://ativhub.sgapps.org.
+
+Postgres and the MinIO console stay on the internal Docker network. 
 
 Need customization or production setup? Continue reading below ↓
 ### Set environment variables
