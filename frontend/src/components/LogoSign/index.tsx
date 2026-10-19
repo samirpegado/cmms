@@ -50,41 +50,78 @@ const TooltipWrapper = styled(({ className, ...props }: TooltipProps) => (
 }));
 interface OwnProps {
   white?: boolean;
+  nameFirst?: boolean;
 }
 
-function Logo({ white }: OwnProps) {
+function Logo({ white, nameFirst }: OwnProps) {
   const { t, i18n } = useTranslation();
   const theme = useTheme();
   const width = 60;
-  const height = 60;
   const mobile = useMediaQuery(theme.breakpoints.down('sm'));
   const { logo, name: brandName } = useBrand();
 
+  const markSize = (mobile ? 0.7 : 1) * width;
+  const mark = (
+    <LogoSignWrapper
+      sx={
+        nameFirst
+          ? {
+              width: markSize,
+              height: markSize,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }
+          : undefined
+      }
+    >
+      <img
+        src={white ? logo.white : logo.dark}
+        width={`${markSize}px`}
+        height={`${markSize}px`}
+        alt={brandName}
+        style={{ display: 'block' }}
+      />
+    </LogoSignWrapper>
+  );
+  const name = (
+    <Box
+      component="span"
+      sx={{
+        mt: nameFirst ? 0 : 0.5,
+        display: nameFirst ? 'flex' : 'inline',
+        alignItems: 'center',
+        height: nameFirst ? markSize : undefined,
+        fontSize: nameFirst ? 28 : 16,
+        fontWeight: 700,
+        letterSpacing: 0.2,
+        lineHeight: 1,
+        color: white ? '#fff' : 'text.primary',
+        textAlign: 'center'
+      }}
+    >
+      {brandName}
+    </Box>
+  );
+
   return (
     <TooltipWrapper title={brandName} arrow>
-      <LogoWrapper href={getLocalizedHomeUrl('', i18n.language)}>
-        <LogoSignWrapper>
-          <img
-            src={white ? logo.white : logo.dark}
-            width={`${width * (mobile ? 0.7 : 1)}px`}
-            height={`${height * (mobile ? 0.7 : 1)}px`}
-            alt={brandName}
-          />
-        </LogoSignWrapper>
-        <Box
-          component="span"
-          sx={{
-            mt: 0.5,
-            fontSize: 16,
-            fontWeight: 700,
-            letterSpacing: 0.2,
-            lineHeight: 1.2,
-            color: white ? '#fff' : 'text.primary',
-            textAlign: 'center'
-          }}
-        >
-          {brandName}
-        </Box>
+      <LogoWrapper
+        href={getLocalizedHomeUrl('', i18n.language)}
+        sx={
+          nameFirst
+            ? {
+                flexDirection: 'row',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: 1.5,
+                mb: 4
+              }
+            : undefined
+        }
+      >
+        {mark}
+        {name}
       </LogoWrapper>
     </TooltipWrapper>
   );

@@ -39,7 +39,7 @@ function LoginCover() {
             }}
           >
             <Box textAlign="center">
-              <Logo />
+              <Logo nameFirst />
               <Typography
                 variant="h2"
                 sx={{

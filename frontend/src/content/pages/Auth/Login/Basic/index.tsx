@@ -80,7 +80,7 @@ function LoginBasic() {
       <MainContent>
         <TopWrapper>
           <Container maxWidth="sm">
-            <Logo />
+            <Logo nameFirst />
             <Card
               sx={{
                 mt: 3,
