@@ -43,10 +43,9 @@ services:
       start_period: 15s
 
   api:
-    build:
-      context: ./api
-      dockerfile: Dockerfile
-    image: ativhub-api
+    # This database was migrated by the official image. The API source in this
+    # repo is an older model (custom_field.name) and fails schema validation.
+    image: intelloop/atlas-cmms-backend
     restart: unless-stopped
     depends_on:
       postgres:
