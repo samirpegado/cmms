@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgrash=self.webpackChunkgrash||[]).push([[4425],{64425:(e,a)=>{Object.defineProperty(a,"__esModule",{value:!0});a.default={code:"nl",week:{dow:1,doy:4},buttonText:{prev:"Vorige",next:"Volgende",today:"Vandaag",year:"Jaar",month:"Maand",week:"Week",day:"Dag",list:"Agenda"},allDayText:"Hele dag",moreLinkText:"extra",noEventsText:"Geen evenementen om te laten zien"}}}]);
-//# sourceMappingURL=4425.337b5fd8.chunk.js.map

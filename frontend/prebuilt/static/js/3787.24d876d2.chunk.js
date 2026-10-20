@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgrash=self.webpackChunkgrash||[]).push([[3787],{53787:(e,t)=>{Object.defineProperty(t,"__esModule",{value:!0});t.default={code:"pt-br",buttonText:{prev:"Anterior",next:"Pr\xf3ximo",today:"Hoje",month:"M\xeas",week:"Semana",day:"Dia",list:"Lista"},weekText:"Sm",allDayText:"dia inteiro",moreLinkText:function(e){return"mais +"+e},noEventsText:"N\xe3o h\xe1 eventos para mostrar"}}}]);
-//# sourceMappingURL=3787.24d876d2.chunk.js.map

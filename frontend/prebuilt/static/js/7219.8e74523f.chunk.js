@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgrash=self.webpackChunkgrash||[]).push([[7219],{47219:(e,t)=>{Object.defineProperty(t,"__esModule",{value:!0});t.default={code:"hu",week:{dow:1,doy:4},buttonText:{prev:"vissza",next:"el\u0151re",today:"ma",month:"H\xf3nap",week:"H\xe9t",day:"Nap",list:"Lista"},weekText:"H\xe9t",allDayText:"Eg\xe9sz nap",moreLinkText:"tov\xe1bbi",noEventsText:"Nincs megjelen\xedthet\u0151 esem\xe9ny"}}}]);
-//# sourceMappingURL=7219.8e74523f.chunk.js.map

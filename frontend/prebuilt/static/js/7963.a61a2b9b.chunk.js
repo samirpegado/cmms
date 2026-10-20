@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgrash=self.webpackChunkgrash||[]).push([[7963],{77963:(r,e,n)=>{n.r(e),n.d(e,{default:()=>l});var s=n(95841),t=n(72791),a=n(43504),u=n(16871),c=n(44371),o=n(13451),f=n(80184);function l(){const[r,e]=(0,a.lr)(),{loginInternal:n}=(0,c.Z)(),l=r.get("error"),{showSnackBar:h}=(0,t.useContext)(o.f),g=(0,u.s0)();return(0,t.useEffect)((()=>{l&&(h(l,"error"),g("/account/login"))}),[l]),(0,f.jsx)(s.Z,{})}}}]);
-//# sourceMappingURL=7963.a61a2b9b.chunk.js.map

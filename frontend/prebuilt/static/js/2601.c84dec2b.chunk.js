@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgrash=self.webpackChunkgrash||[]).push([[2601],{22601:(e,t)=>{Object.defineProperty(t,"__esModule",{value:!0});var n={code:"en-gb",week:{dow:1,doy:4},buttonHints:{prev:"Previous $0",next:"Next $0",today:"This $0"},viewHint:"$0 view",navLinkHint:"Go to $0",moreLinkHint:e=>"Show ".concat(e," more event").concat(1===e?"":"s")};t.default=n}}]);

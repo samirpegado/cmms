@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgrash=self.webpackChunkgrash||[]).push([[9223],{39223:(e,n,s)=>{s.r(n),s.d(n,{default:()=>f});var t=s(12269),r=s(47313),u=s(29466),a=s(1229),c=s(46417);function f(){const[e,n]=(0,u.lr)(),{loginInternal:s}=(0,a.Z)(),f=e.get("token");return(0,r.useEffect)((()=>{f&&s(f)}),[f]),(0,c.jsx)(t.Z,{})}}}]);
