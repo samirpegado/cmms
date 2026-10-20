@@ -43,7 +43,10 @@ services:
       start_period: 15s
 
   api:
-    image: intelloop/atlas-cmms-backend
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    image: ativhub-api
     restart: unless-stopped
     depends_on:
       postgres:

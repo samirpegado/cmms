@@ -2,7 +2,8 @@
 FROM maven:3.9.3-eclipse-temurin-17 AS build
 WORKDIR /app
 COPY . .
-RUN mvn clean package -DskipTests
+ENV MAVEN_OPTS="-Xmx768m"
+RUN mvn -B clean package -DskipTests
 
 # Runtime Stage
 FROM amazoncorretto:17-alpine
