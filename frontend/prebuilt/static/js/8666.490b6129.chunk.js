@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgrash=self.webpackChunkgrash||[]).push([[8666],{98666:(e,n,s)=>{s.r(n),s.d(n,{default:()=>f});var t=s(95841),r=s(72791),u=s(43504),a=s(44371),c=s(80184);function f(){const[e,n]=(0,u.lr)(),{loginInternal:s}=(0,a.Z)(),f=e.get("token");return(0,r.useEffect)((()=>{f&&s(f)}),[f]),(0,c.jsx)(t.Z,{})}}}]);
+//# sourceMappingURL=8666.490b6129.chunk.js.map

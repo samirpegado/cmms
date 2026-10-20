@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgrash=self.webpackChunkgrash||[]).push([[5930],{85930:(e,n)=>{Object.defineProperty(n,"__esModule",{value:!0});n.default={code:"fr",week:{dow:1,doy:4},buttonText:{prev:"Pr\xe9c\xe9dent",next:"Suivant",today:"Aujourd'hui",year:"Ann\xe9e",month:"Mois",week:"Semaine",day:"Jour",list:"Planning"},weekText:"Sem.",allDayText:"Toute la journ\xe9e",moreLinkText:"en plus",noEventsText:"Aucun \xe9v\xe9nement \xe0 afficher"}}}]);
+//# sourceMappingURL=5930.a31acc96.chunk.js.map

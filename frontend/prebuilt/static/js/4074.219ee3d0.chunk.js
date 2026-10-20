@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgrash=self.webpackChunkgrash||[]).push([[4074],{94074:(e,a)=>{Object.defineProperty(a,"__esModule",{value:!0});a.default={code:"bs",week:{dow:1,doy:7},buttonText:{prev:"Pro\u0161li",next:"Sljede\u0107i",today:"Danas",month:"Mjesec",week:"Sedmica",day:"Dan",list:"Raspored"},weekText:"Sed",allDayText:"Cijeli dan",moreLinkText:function(e){return"+ jo\u0161 "+e},noEventsText:"Nema doga\u0111aja za prikazivanje"}}}]);
+//# sourceMappingURL=4074.219ee3d0.chunk.js.map

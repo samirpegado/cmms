@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgrash=self.webpackChunkgrash||[]).push([[7138],{27138:(e,t)=>{Object.defineProperty(t,"__esModule",{value:!0});t.default={code:"tr",week:{dow:1,doy:7},buttonText:{prev:"geri",next:"ileri",today:"bug\xfcn",month:"Ay",week:"Hafta",day:"G\xfcn",list:"Ajanda"},weekText:"Hf",allDayText:"T\xfcm g\xfcn",moreLinkText:"daha fazla",noEventsText:"G\xf6sterilecek etkinlik yok"}}}]);
+//# sourceMappingURL=7138.9f94c382.chunk.js.map

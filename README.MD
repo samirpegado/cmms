@@ -79,7 +79,7 @@ docker-compose.yml
 api/**
 ```
 
-2. Frontend resource. Another Docker Compose resource, same repository. Compose file `/docker-compose.frontend.yml`. Domain: `frontend` → `https://ativhub.sgapps.org:3000`. Advanced → Watch Paths:
+2. Frontend resource. Another Docker Compose resource, same repository. Compose file `/docker-compose.frontend.yml`. It only copies the already built files in `frontend/prebuilt`. Domain: `frontend` → `https://ativhub.sgapps.org:3000`. Advanced → Watch Paths:
 
 ```
 docker-compose.frontend.yml

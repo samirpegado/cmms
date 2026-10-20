@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgrash=self.webpackChunkgrash||[]).push([[7255],{47255:(e,t)=>{Object.defineProperty(t,"__esModule",{value:!0});t.default={code:"pl",week:{dow:1,doy:4},buttonText:{prev:"Poprzedni",next:"Nast\u0119pny",today:"Dzi\u015b",month:"Miesi\u0105c",week:"Tydzie\u0144",day:"Dzie\u0144",list:"Plan dnia"},weekText:"Tydz",allDayText:"Ca\u0142y dzie\u0144",moreLinkText:"wi\u0119cej",noEventsText:"Brak wydarze\u0144 do wy\u015bwietlenia"}}}]);
+//# sourceMappingURL=7255.e869df57.chunk.js.map

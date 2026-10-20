@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgrash=self.webpackChunkgrash||[]).push([[3608],{13608:(e,t)=>{Object.defineProperty(t,"__esModule",{value:!0});t.default={code:"zh-cn",week:{dow:1,doy:4},buttonText:{prev:"\u4e0a\u6708",next:"\u4e0b\u6708",today:"\u4eca\u5929",month:"\u6708",week:"\u5468",day:"\u65e5",list:"\u65e5\u7a0b"},weekText:"\u5468",allDayText:"\u5168\u5929",moreLinkText:function(e){return"\u53e6\u5916 "+e+" \u4e2a"},noEventsText:"\u6ca1\u6709\u4e8b\u4ef6\u663e\u793a"}}}]);
+//# sourceMappingURL=3608.2d5d850a.chunk.js.map
