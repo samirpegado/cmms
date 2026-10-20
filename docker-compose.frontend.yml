@@ -1,7 +1,7 @@
 # Coolify resource for the web UI only.
 # Build pack Docker Compose. Do not enable Raw Compose.
 # Base directory /, Compose file /docker-compose.frontend.yml
-# Domain: https://ativhub.sgapps.org:3000
+# Domain: https://atlas.sgapps.org:3000
 # Watch Paths: frontend/** and docker-compose.frontend.yml
 # A commit that only changes the UI restarts this resource and leaves the API running.
 # The files in frontend/prebuilt are already compiled. Coolify does not run the React build.

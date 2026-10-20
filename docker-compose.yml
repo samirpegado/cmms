@@ -61,7 +61,8 @@ services:
       - DB_USER=${SERVICE_USER_POSTGRES}
       - DB_PWD=${SERVICE_PASSWORD_64_POSTGRES}
       - PUBLIC_API_URL=https://api.ativhub.sgapps.org
-      - PUBLIC_FRONT_URL=https://ativhub.sgapps.org
+      - PUBLIC_FRONT_URL=https://atlas.sgapps.org
+      - PUBLIC_HOME_URL=https://ativhub.sgapps.org
       - GCP_BUCKET_NAME=${GCP_BUCKET_NAME:-}
       - GCP_JSON=${GCP_JSON:-}
       - GCP_PROJECT_ID=${GCP_PROJECT_ID:-}
