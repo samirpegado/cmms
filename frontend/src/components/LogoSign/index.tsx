@@ -27,8 +27,12 @@ const LogoWrapper = styled('a')(
 
 const LogoSignWrapper = styled(Box)(
   () => `
-        width: 52px;
-        height: 52px;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
 `
 );
 
@@ -76,11 +80,15 @@ function Logo({ white, nameFirst }: OwnProps) {
       }
     >
       <img
-        src={white ? logo.white : logo.dark}
+        src={
+          white
+            ? '/static/images/logo/logo-white.png'
+            : logo.dark || '/static/images/logo/logo.png'
+        }
         width={`${markSize}px`}
         height={`${markSize}px`}
         alt={brandName}
-        style={{ display: 'block' }}
+        style={{ display: 'block', objectFit: 'contain' }}
       />
     </LogoSignWrapper>
   );
